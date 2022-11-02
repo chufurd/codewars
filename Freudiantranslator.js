@@ -43,3 +43,17 @@ function friend(friends){
   const sort = friends.filter(num => num.length === 4 ? num : false )
   return sort
 }
+
+// Given a string, you have to return a string in which each character (case-sensitive) is repeated once.
+
+// Examples (Input -> Output):
+// * "String"      -> "SSttrriinngg"
+// * "Hello World" -> "HHeelllloo  WWoorrlldd"
+// * "1234!_ "     -> "11223344!!__  "
+// Good Luck!
+
+function doubleChar(str) {
+  const split = str.split('').map(c => c + c).join('')
+  
+  return split
+}
