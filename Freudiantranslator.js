@@ -58,6 +58,14 @@ function doubleChar(str) {
   return split
 }
 
+<<<<<<< HEAD
+// Write a function which converts the input string to uppercase.
+
+// FUNDAMENTALSSTRINGS
+
+function makeUpperCase(str) {
+  return str.toUpperCase()
+=======
 // Character recognition software is widely used to digitise printed texts. Thus the texts can be edited, searched and stored on a computer.
 
 // When documents (especially pretty old ones written with a typewriter), are digitised character recognition softwares often make mistakes.
@@ -73,6 +81,7 @@ function correct(string) {
   return string.replace(/0/g, "O")
                .replace(/5/g, "S")
                .replace(/1/g, "I");
+<<<<<<< HEAD
 }
 
 //FIZZ BUZZ PRACTICE
@@ -90,4 +99,7 @@ function preFizz(num) {
     }
   }
   return empty
+=======
+>>>>>>> c6595579e3c00edfbf7dbb331ecb77a6825e54c0
+>>>>>>> b9807457cd8f47eca76f2477968761bf56c73c5a
 }
