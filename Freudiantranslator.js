@@ -58,14 +58,12 @@ function doubleChar(str) {
   return split
 }
 
-<<<<<<< HEAD
 // Write a function which converts the input string to uppercase.
 
 // FUNDAMENTALSSTRINGS
 
 function makeUpperCase(str) {
   return str.toUpperCase()
-=======
 // Character recognition software is widely used to digitise printed texts. Thus the texts can be edited, searched and stored on a computer.
 
 // When documents (especially pretty old ones written with a typewriter), are digitised character recognition softwares often make mistakes.
@@ -81,5 +79,29 @@ function correct(string) {
   return string.replace(/0/g, "O")
                .replace(/5/g, "S")
                .replace(/1/g, "I");
->>>>>>> c6595579e3c00edfbf7dbb331ecb77a6825e54c0
 }
+
+// This function should test if the factor is a factor of base.
+
+// Return true if it is a factor or false if it is not.
+
+// About factors
+// Factors are numbers you can multiply together to get another number.
+
+// 2 and 3 are factors of 6 because: 2 * 3 = 6
+
+// You can find a factor by dividing numbers. If the remainder is 0 then the number is a factor.
+// You can use the mod operator (%) in most languages to check for a remainder
+// For example 2 is not a factor of 7 because: 7 % 2 = 1
+
+// Note: base is a non-negative number, factor is a positive number.
+
+
+function checkForFactor (base, factor) {
+  if(base % factor === 0) {
+    return true
+    
+    }else{
+      return false
+    }
+  }
