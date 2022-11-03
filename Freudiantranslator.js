@@ -74,3 +74,20 @@ function correct(string) {
                .replace(/5/g, "S")
                .replace(/1/g, "I");
 }
+
+//FIZZ BUZZ PRACTICE
+function preFizz(num) {
+  const empty = []
+  for (var i = 1; i < num; i++) {
+    if (i % 3 === 0 && i % 5 === 0) {
+      empty.push("FizzBuzz")
+    }else if (i % 3 === 0) {
+      empty.push("Fizz")
+    }else if (i % 5 === 0) {
+      empty.push("Buzz")
+    }else{
+      empty.push(i)
+    }
+  }
+  return empty
+}
