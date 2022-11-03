@@ -79,6 +79,7 @@ function correct(string) {
   return string.replace(/0/g, "O")
                .replace(/5/g, "S")
                .replace(/1/g, "I");
+<<<<<<< HEAD
 }
 
 // This function should test if the factor is a factor of base.
@@ -105,3 +106,27 @@ function checkForFactor (base, factor) {
       return false
     }
   }
+=======
+<<<<<<< HEAD
+}
+
+//FIZZ BUZZ PRACTICE
+function preFizz(num) {
+  const empty = []
+  for (var i = 1; i < num; i++) {
+    if (i % 3 === 0 && i % 5 === 0) {
+      empty.push("FizzBuzz")
+    }else if (i % 3 === 0) {
+      empty.push("Fizz")
+    }else if (i % 5 === 0) {
+      empty.push("Buzz")
+    }else{
+      empty.push(i)
+    }
+  }
+  return empty
+=======
+>>>>>>> c6595579e3c00edfbf7dbb331ecb77a6825e54c0
+>>>>>>> b9807457cd8f47eca76f2477968761bf56c73c5a
+}
+>>>>>>> 967f752b6d8d45ed14c4f052674068774af8c751
