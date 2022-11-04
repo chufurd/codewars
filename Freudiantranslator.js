@@ -130,4 +130,15 @@ function preFizz(num) {
 >>>>>>> b9807457cd8f47eca76f2477968761bf56c73c5a
 }
 >>>>>>> 967f752b6d8d45ed14c4f052674068774af8c751
+
+
+// Write a function which calculates the average of the numbers in a given list.
+
+// Note: Empty arrays should return 0.
+
+function findAverage(array) {
+  
+  return array.length > 0 ? array.reduce((a, b) => a + b) / array.length : 0
+
+}
  
