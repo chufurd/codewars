@@ -35,3 +35,9 @@ function sumTwoSmallestNumbers(numbers) {
 function sumTwoSmallestNumbers(numbers) {  
   return numbers.sort((a, b) => a > b ? 1 : -1).slice(0, 2).reduce((a, b) => a + b)
 }
+
+class Kata {
+  static getVolumeOfCuboid(length, width, height) {
+    return (height * width) * length
+  }
+}
