@@ -24,3 +24,10 @@ function getDivisorsCnt(n){
    }
 return empty
 }
+
+function sumTwoSmallestNumbers(numbers) {  
+  const check = numbers.sort((a, b ) => a > b ? 1 : -1)
+  const lowest =  check.slice(0, 2)
+  const add = lowest.reduce((a , b) => a + b)
+  return add
+}
