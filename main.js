@@ -31,3 +31,7 @@ function sumTwoSmallestNumbers(numbers) {
   const add = lowest.reduce((a , b) => a + b)
   return add
 }
+
+function sumTwoSmallestNumbers(numbers) {  
+  return numbers.sort((a, b) => a > b ? 1 : -1).slice(0, 2).reduce((a, b) => a + b)
+}
