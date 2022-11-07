@@ -41,3 +41,9 @@ class Kata {
     return (height * width) * length
   }
 }
+
+function minMax(arr){
+  const last = arr.sort((a, b) => a > b ? 1 : -1).slice(-1)[0]
+  const first = arr.sort((a, b) => a > b ? -1 : 1).slice(-1)[0]
+  return [first, last]
+}
