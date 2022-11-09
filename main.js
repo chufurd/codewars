@@ -41,3 +41,7 @@ class Kata {
     return (height * width) * length
   }
 }
+
+function square(a){
+  return a**2
+}
