@@ -56,4 +56,4 @@ function minMax(arr){
 >>>>>>> 5b75b6604cab577df012dc1ee5ab0848b5fce2a8
 }
 >>>>>>> 0e031d644f57321b774f8f4a061201d581ef001c
- 
+  
