@@ -42,8 +42,17 @@ class Kata {
   }
 }
 
+<<<<<<< HEAD
+function square(a){
+  return a**2
+=======
 function minMax(arr){
   const last = arr.sort((a, b) => a > b ? 1 : -1).slice(-1)[0]
   const first = arr.sort((a, b) => a > b ? -1 : 1).slice(-1)[0]
   return [first, last]
+<<<<<<< HEAD
 } 
+=======
+>>>>>>> 5b75b6604cab577df012dc1ee5ab0848b5fce2a8
+}
+>>>>>>> 0e031d644f57321b774f8f4a061201d581ef001c
