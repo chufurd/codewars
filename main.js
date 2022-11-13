@@ -57,3 +57,6 @@ function minMax(arr){
 }
 >>>>>>> 0e031d644f57321b774f8f4a061201d581ef001c
   
+function sortByLength (array) {
+  return array.sort((a, b) => a.length > b.length ? 1 : -1)
+};
