@@ -56,3 +56,15 @@ function minMax(arr){
 function findDifference(a, b) {
   return Math.abs((a[0] * a[1] * a[2]) - (b[0] * b[1] * b[2]))
 }
+
+function finalGrade (exam, projects) {
+  if(exam > 90 || projects > 10){
+    return 100
+  }else if(exam > 75 && projects >= 5){
+    return 90
+  }else if(exam > 50 && projects >= 2){
+    return 75
+  }else{
+    return 0
+  }   
+}
