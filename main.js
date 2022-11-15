@@ -67,4 +67,4 @@ function finalGrade (exam, projects) {
   }else{
     return 0
   }   
-}
+} 
