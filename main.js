@@ -76,3 +76,7 @@ else if (operation === '*') return value1 * value2;
 else if (operation === '/') return value1 / value2
   
 } 
+
+function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
+  return laLigaGoals + copaDelReyGoals + championsLeagueGoals
+}
