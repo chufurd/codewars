@@ -173,3 +173,9 @@ function combat(health, damage) {
     return 0
   }
  } 
+
+ function capitalize(s){
+  const odd = s.split('').map((n, e) => e % 2 !== 0 ? n.toUpperCase() : n).join('')
+  const even = s.split('').map((n, e) => e % 2 === 0 ? n.toUpperCase() : n).join('')
+      return [even, odd]                          
+};
