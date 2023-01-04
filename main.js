@@ -90,6 +90,12 @@ function smallEnough(a, limit){
       if (a[i] > limit){
         return false
       }
-      } 
+      }  
     return true
+  }
+
+  function reverseLetter(str) {
+    const del = str.replace(/[^a-z]/gi,'')
+     return del.split('').reverse().join('')
+    
   }
