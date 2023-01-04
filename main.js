@@ -92,6 +92,7 @@ function smallEnough(a, limit){
       }
       }  
     return true
+<<<<<<< HEAD
   }
 
   function reverseLetter(str) {
@@ -99,3 +100,6 @@ function smallEnough(a, limit){
      return del.split('').reverse().join('')
     
   }
+=======
+  }  
+>>>>>>> d8b2977a4e208c62459137ed43f8a0227b15bd9c
