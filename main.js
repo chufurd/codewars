@@ -103,3 +103,8 @@ function smallEnough(a, limit){
 =======
   }  
 >>>>>>> d8b2977a4e208c62459137ed43f8a0227b15bd9c
+
+function XO(str) {
+  return str.toLowerCase().split('x').length === str.toLowerCase().split('o').length ? true : false
+  
+}
