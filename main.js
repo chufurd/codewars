@@ -108,3 +108,13 @@ function XO(str) {
   return str.toLowerCase().split('x').length === str.toLowerCase().split('o').length ? true : false
   
 }
+
+var number = function(busStops){
+  const check = busStops.reduce((total,peps ) =>{
+    return total + (peps[0])
+  },0)
+  const leaving = busStops.reduce((total, left) =>{
+    return total +(left[1])
+  },0)
+  return check - leaving
+} 
