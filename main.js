@@ -122,3 +122,7 @@ var number = function(busStops){
 var number = function(busStops){
   return busStops.reduce((total, left) => {return total + left[0] - left[1]},0)
 }
+
+var number = function(busStops){
+  return busStops.reduce((total, left) =>  total + left[0] - left[1],0)
+}
