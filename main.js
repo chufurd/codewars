@@ -118,3 +118,7 @@ var number = function(busStops){
   },0)
   return check - leaving
 } 
+
+var number = function(busStops){
+  return busStops.reduce((total, left) => {return total + left[0] - left[1]},0)
+}
