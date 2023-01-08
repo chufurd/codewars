@@ -140,5 +140,19 @@ var number = function(busStops){
 //   or `name` = ""        => return "Hello, World!"
 // FUNDAMENTALS
 
-function hello(name) {
-  return `Hello, ${name ? name[0].toUpperCase() + name.slice(1).toLowerCase() : "World"}!`
+ function hello(name) {
+   return `Hello, ${name ? name[0].toUpperCase() + name.slice(1).toLowerCase() : "World"}!`
+
+//   Task:
+// Given a non-negative integer, 3 for example, return a string with a murmur: "1 sheep...2 sheep...3 sheep...". Input will always be valid, i.e. no negative integers.
+
+// FUNDAMENTALSSTRINGS
+
+var countSheep = function (num){
+  let string = ''
+  for(let i = 1; i <= num; i++ ){
+    string+=`${i} sheep...`
+  }
+  return string
+}
+
