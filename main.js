@@ -126,3 +126,6 @@ var number = function(busStops){
 var number = function(busStops){
   return busStops.reduce((total, left) =>  total + left[0] - left[1],0)
 }
+
+function hello(name) {
+  return `Hello, ${name ? name[0].toUpperCase() + name.slice(1).toLowerCase() : "World"}!`
