@@ -159,3 +159,9 @@ var countSheep = function (num){
 function take(arr, n) {
   return arr.splice(0,n)
 }
+
+function removeExclamationMarks(s) {
+  const check = s.split('').filter(n => n === '!' ? false : true).join('')
+  return check
+  
+}
