@@ -156,3 +156,6 @@ var countSheep = function (num){
   return string
 }
 
+function take(arr, n) {
+  return arr.splice(0,n)
+}
