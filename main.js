@@ -179,3 +179,14 @@ function combat(health, damage) {
   const even = s.split('').map((n, e) => e % 2 === 0 ? n.toUpperCase() : n).join('')
       return [even, odd]                          
 };                    
+
+var summation = function (num) {
+  
+  let answer = 0
+  for(var i = 0; i <= num; i++){
+     answer +=i
+  }
+    return answer
+  }
+  
+  
