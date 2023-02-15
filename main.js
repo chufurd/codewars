@@ -178,4 +178,9 @@ function combat(health, damage) {
   const odd = s.split('').map((n, e) => e % 2 !== 0 ? n.toUpperCase() : n).join('')
   const even = s.split('').map((n, e) => e % 2 === 0 ? n.toUpperCase() : n).join('')
       return [even, odd]                          
-};                    
+};   
+
+function getAge(inputString){
+  return Number(inputString.split('').slice(0,1))
+  
+  }
