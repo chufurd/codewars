@@ -178,9 +178,24 @@ function combat(health, damage) {
   const odd = s.split('').map((n, e) => e % 2 !== 0 ? n.toUpperCase() : n).join('')
   const even = s.split('').map((n, e) => e % 2 === 0 ? n.toUpperCase() : n).join('')
       return [even, odd]                          
+<<<<<<< HEAD
 };   
 
 function getAge(inputString){
   return Number(inputString.split('').slice(0,1))
   
   }
+=======
+};                    
+
+var summation = function (num) {
+  
+  let answer = 0
+  for(var i = 0; i <= num; i++){
+     answer +=i
+  }
+    return answer
+  }
+  
+  
+>>>>>>> c206ddc9835bb7050102171f5e0b631428c0e180
