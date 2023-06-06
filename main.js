@@ -194,8 +194,16 @@ var summation = function (num) {
   for(var i = 0; i <= num; i++){
      answer +=i
   }
-    return answer
+    return answer 
   }
   
   
 >>>>>>> c206ddc9835bb7050102171f5e0b631428c0e180
+
+
+var capitals = function (word) {
+	const split = word.split('')
+  return split.map((el, i) => el === el.toUpperCase() ? i : -1).filter((e)=> e >= 0)
+};
+
+
