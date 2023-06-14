@@ -205,5 +205,5 @@ var capitals = function (word) {
 	const split = word.split('')
   return split.map((el, i) => el === el.toUpperCase() ? i : -1).filter((e)=> e >= 0)
 };
-
+ 
 
