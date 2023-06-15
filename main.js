@@ -206,4 +206,4 @@ var capitals = function (word) {
   return split.map((el, i) => el === el.toUpperCase() ? i : -1).filter((e)=> e >= 0)
 };
  
-
+ 
