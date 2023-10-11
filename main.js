@@ -238,4 +238,6 @@ function findUniq(arr) {
   } else {
     return arr[0]
   } 
-}              
+} 
+
+return str.endsWith(ending);
